@@ -9,7 +9,7 @@
  * In addition, it implements the factories mechanism that allows
  * users to instantiate algorithms by their standard name.
  */
-library pointycastle.api;
+library pointycastleold.api;
 
 import "dart:typed_data";
 

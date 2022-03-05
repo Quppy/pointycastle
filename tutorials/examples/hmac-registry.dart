@@ -11,11 +11,10 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastleold/pointycastle.dart';
 
 Uint8List hmacSha256(Uint8List hmacKey, Uint8List data) {
-  final hmac = Mac('SHA-256/HMAC')
-    ..init(KeyParameter(hmacKey));
+  final hmac = Mac('SHA-256/HMAC')..init(KeyParameter(hmacKey));
 
   return hmac.process(data);
 }
@@ -28,7 +27,7 @@ void main(List<String> args) {
 
   final key = utf8.encode(args[0]); // first argument is the key
   final data = utf8.encode(args[1]); // second argument is the data
-  
+
   final hmacValue = hmacSha256(key, data);
   print('HMAC SHA-256: $hmacValue');
   print('HMAC SHA-256: ${bin2hex(hmacValue)}');

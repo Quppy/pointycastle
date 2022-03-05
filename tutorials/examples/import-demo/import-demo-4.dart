@@ -1,13 +1,13 @@
 /// Demonstrates different approaches to importing Pointy Castle libraries.
 ///
-/// - import-demo-1.dart - import "package:pointycastle/pointycastle.dart";
+/// - import-demo-1.dart - import "package:pointycastleold/pointycastle.dart";
 ///                        can only used registry
-/// - import-demo-2.dart - import "package:pointycastle/export.dart";
+/// - import-demo-2.dart - import "package:pointycastleold/export.dart";
 ///                        can use registry and all constructors
-/// - import-demo-3.dart - import "package:pointycastle/api.dart" plus
+/// - import-demo-3.dart - import "package:pointycastleold/api.dart" plus
 ///                        individual libraries; can use registry and
 ///                        constructors from individually imported libraries
-/// - import-demo-4.dart - import "package:pointycastle/api.dart" plus
+/// - import-demo-4.dart - import "package:pointycastleold/api.dart" plus
 ///                        individual libraries; same as 3, but tries
 ///                        to use the registry for classes that have NOT
 ///                        been individually imported. This should not
@@ -22,23 +22,23 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/asymmetric/api.dart";
-import "package:pointycastle/block/aes_fast.dart";
-import "package:pointycastle/digests/md5.dart";
-import "package:pointycastle/digests/sha1.dart";
-import "package:pointycastle/digests/sha256.dart";
-import "package:pointycastle/digests/sha512.dart";
-import "package:pointycastle/key_derivators/api.dart";
-import "package:pointycastle/key_derivators/pbkdf2.dart";
-import "package:pointycastle/key_generators/api.dart";
-import "package:pointycastle/key_generators/rsa_key_generator.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/asymmetric/api.dart";
+import "package:pointycastleold/block/aes_fast.dart";
+import "package:pointycastleold/digests/md5.dart";
+import "package:pointycastleold/digests/sha1.dart";
+import "package:pointycastleold/digests/sha256.dart";
+import "package:pointycastleold/digests/sha512.dart";
+import "package:pointycastleold/key_derivators/api.dart";
+import "package:pointycastleold/key_derivators/pbkdf2.dart";
+import "package:pointycastleold/key_generators/api.dart";
+import "package:pointycastleold/key_generators/rsa_key_generator.dart";
 // Note: these individual libraries are deliberatly not imported
-// import "package:pointycastle/macs/hmac.dart";
-// import "package:pointycastle/signers/rsa_signer.dart";
-// import 'package:pointycastle/block/modes/cbc.dart';
-// import 'package:pointycastle/paddings/pkcs7.dart';
-// import 'package:pointycastle/random/fortuna_random.dart';
+// import "package:pointycastleold/macs/hmac.dart";
+// import "package:pointycastleold/signers/rsa_signer.dart";
+// import 'package:pointycastleold/block/modes/cbc.dart';
+// import 'package:pointycastleold/paddings/pkcs7.dart';
+// import 'package:pointycastleold/random/fortuna_random.dart';
 
 void main() {
   useRegistry();

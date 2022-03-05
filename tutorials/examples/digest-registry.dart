@@ -15,7 +15,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 Uint8List md5Digest(Uint8List dataToDigest) {
   Digest d = new Digest("MD5");

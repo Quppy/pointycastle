@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.key_generator.ec_key_generator;
+library pointycastleold.impl.key_generator.ec_key_generator;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/key_generators/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/ecc/api.dart";
+import "package:pointycastleold/key_generators/api.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// Abstract [CipherParameters] to init an ECC key generator.
 class ECKeyGenerator implements KeyGenerator {

@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.digests.md4_family_digest;
+library pointycastleold.src.impl.digests.md4_family_digest;
 
 import "dart:typed_data";
 
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
+import "package:pointycastleold/src/ufixnum.dart";
+import "package:pointycastleold/src/impl/base_digest.dart";
 
 /// Base implementation of MD4 family style digest
 abstract class MD4FamilyDigest extends BaseDigest {

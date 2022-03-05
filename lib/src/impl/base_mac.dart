@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.base_mac;
+library pointycastleold.src.impl.base_mac;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastleold/api.dart";
 
 /// Base implementation of [Mac] which provides shared methods.
 abstract class BaseMac implements Mac {

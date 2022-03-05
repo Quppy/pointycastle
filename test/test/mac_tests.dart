@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.test.mac_tests;
+library pointycastleold.test.test.mac_tests;
 
 import "dart:typed_data" show Uint8List;
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "./src/helpers.dart";
 

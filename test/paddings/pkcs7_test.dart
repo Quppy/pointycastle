@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.paddings.pkcs7_test;
+library pointycastleold.test.paddings.pkcs7_test;
 
 import "dart:typed_data" show Uint8List;
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "../test/padding_tests.dart";
 import "../test/src/helpers.dart";

@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.stream.salsa20_test;
+library pointycastleold.test.stream.salsa20_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "../test/stream_cipher_tests.dart";
 

@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.block_chipher.test.src.null_digest;
+library pointycastleold.impl.block_chipher.test.src.null_digest;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_digest.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /**
  * An implementation of a null [Digest], that is, a digest that returns an empty string. It can be

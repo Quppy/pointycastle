@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.md2;
+library pointycastleold.impl.digest.md2;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_digest.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// Implementation of MD2 as outlined in RFC1319 by B.Kaliski from RSA Laboratories April 1992
 class MD2Digest extends BaseDigest {

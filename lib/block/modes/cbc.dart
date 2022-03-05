@@ -1,13 +1,13 @@
 // Copyright (c) 2013-present, the authors of the Pointy Castle project
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
-library pointycastle.impl.block_cipher.modes.cbc;
+library pointycastleold.impl.block_cipher.modes.cbc;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/impl/base_block_cipher.dart";
 
 /// Implementation of Cipher-Block-Chaining (CBC) mode on top of a [BlockCipher].
 class CBCBlockCipher extends BaseBlockCipher {

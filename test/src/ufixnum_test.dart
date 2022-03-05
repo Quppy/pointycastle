@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.ufixnum_test;
+library pointycastleold.src.ufixnum_test;
 
 import 'dart:typed_data';
 
 import "package:test/test.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 
 void main() {
   group("int8:", () {

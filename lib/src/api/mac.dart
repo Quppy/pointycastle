@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-part of pointycastle.api;
+part of pointycastleold.api;
 
 /// The interface that a MAC (message authentication code) conforms to.
 abstract class Mac extends Algorithm {

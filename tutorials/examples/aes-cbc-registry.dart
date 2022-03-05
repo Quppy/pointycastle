@@ -6,7 +6,7 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastleold/pointycastle.dart';
 
 // Code convention: variable names starting with underscores are examples only,
 // and should be implementated according to the needs of the program.

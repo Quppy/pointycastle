@@ -2,10 +2,10 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.asymmetric.pkcs1_test;
+library pointycastleold.test.asymmetric.pkcs1_test;
 
-import "package:pointycastle/pointycastle.dart";
-import 'package:pointycastle/src/registry/registry.dart';
+import "package:pointycastleold/pointycastle.dart";
+import 'package:pointycastleold/src/registry/registry.dart';
 
 import "../test/asymmetric_block_cipher_tests.dart";
 import "../test/src/null_asymmetric_block_cipher.dart";

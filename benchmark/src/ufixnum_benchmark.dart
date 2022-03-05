@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.benchmark.api.ufixnum_benchmark;
+library pointycastleold.benchmark.api.ufixnum_benchmark;
 
 import "dart:typed_data";
 
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 import "../benchmark/operation_benchmark.dart";
 
 void main() {

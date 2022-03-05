@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.base_stream_cipher;
+library pointycastleold.src.impl.base_stream_cipher;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastleold/api.dart";
 
 /// Base implementation of [StreamCipher] which provides shared methods.
 abstract class BaseStreamCipher implements StreamCipher {

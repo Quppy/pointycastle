@@ -112,7 +112,7 @@ To use the registry, either import `pointycastle.dart` or
 `export.dart`.  For example,
 
 ```dart
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 final sha256 = Digest("SHA-256");
 final sha1 = Digest("SHA-1");
@@ -139,7 +139,7 @@ with the correct values.
 To use the constructors, import `export.dart`.  For example,
 
 ``` dart
-import "package:pointycastle/export.dart";
+import "package:pointycastleold/export.dart";
 
 final sha256 = SHA256Digest();
 final sha1 = SHA1Digest();
@@ -190,11 +190,11 @@ loaded.
 Some articles on how to use some of Pointy Castle's features can be
 found under the _tutorials_ directory in the sources.
 
-- [Calculating a digest](https://github.com/PointyCastle/pointycastle/blob/master/tutorials/digest.md) - calculating a hash or digest (e.g. SHA-256, SHA-1, MD5)
-- [Calculating a HMAC](https://github.com/PointyCastle/pointycastle/blob/master/tutorials/hmac.md) - calculating a hash-based message authentication code (e.g. HMAC-SHA256, HMAC-SHA1)
-- [Using AES-CBC](https://github.com/PointyCastle/pointycastle/blob/master/tutorials/aes-cbc.md) - block encryption and decryption with AES-CBC
-- [Using RSA](https://github.com/PointyCastle/pointycastle/blob/master/tutorials/rsa.md) - key generation, signing/verifying, and encryption/decryption
-- Some [tips](https://github.com/PointyCastle/pointycastle/blob/master/tutorials/tips.md) on using Pointy Castle
+- [Calculating a digest](https://github.com/pointycastleold/pointycastleold/blob/master/tutorials/digest.md) - calculating a hash or digest (e.g. SHA-256, SHA-1, MD5)
+- [Calculating a HMAC](https://github.com/pointycastleold/pointycastleold/blob/master/tutorials/hmac.md) - calculating a hash-based message authentication code (e.g. HMAC-SHA256, HMAC-SHA1)
+- [Using AES-CBC](https://github.com/pointycastleold/pointycastleold/blob/master/tutorials/aes-cbc.md) - block encryption and decryption with AES-CBC
+- [Using RSA](https://github.com/pointycastleold/pointycastleold/blob/master/tutorials/rsa.md) - key generation, signing/verifying, and encryption/decryption
+- Some [tips](https://github.com/pointycastleold/pointycastleold/blob/master/tutorials/tips.md) on using Pointy Castle
 
 _Note: the above links are to the most recent versions on the master
 branch on GitHub. They may be different from the version here._

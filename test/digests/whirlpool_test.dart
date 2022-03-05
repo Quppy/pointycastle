@@ -2,9 +2,9 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.digests.whirlpool_test;
+library pointycastleold.test.digests.whirlpool_test;
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "../test/digest_tests.dart";
 

@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.sha512;
+library pointycastleold.impl.digest.sha512;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/long_sha2_family_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/long_sha2_family_digest.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// Implementation of SHA-512 digest.
 class SHA512Digest extends LongSHA2FamilyDigest implements Digest {

@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.secure_random.fortuna_random;
+library pointycastleold.impl.secure_random.fortuna_random;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/block/aes_fast.dart";
-import "package:pointycastle/random/auto_seed_block_ctr_random.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/block/aes_fast.dart";
+import "package:pointycastleold/random/auto_seed_block_ctr_random.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// An implementation of [SecureRandom] as specified in the Fortuna algorithm.
 class FortunaRandom implements SecureRandom {

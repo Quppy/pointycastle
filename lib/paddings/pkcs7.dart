@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.padding.pkcs7;
+library pointycastleold.impl.padding.pkcs7;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_padding.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_padding.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 
 /// A [Padding] that adds PKCS7/PKCS5 padding to a block.
 class PKCS7Padding extends BasePadding {

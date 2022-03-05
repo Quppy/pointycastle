@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.api.asymmetric;
+library pointycastleold.api.asymmetric;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastleold/api.dart";
 
 /// Base class for asymmetric keys in RSA
 abstract class RSAAsymmetricKey implements AsymmetricKey {

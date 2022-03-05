@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.api.key_derivators;
+library pointycastleold.api.key_derivators;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
+import "package:pointycastleold/api.dart";
 
 /// [CipherParameters] used by PBKDF2.
 class Pbkdf2Parameters extends CipherParameters {

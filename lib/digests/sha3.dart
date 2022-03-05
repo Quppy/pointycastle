@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.sha3;
+library pointycastleold.impl.digest.sha3;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_digest.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 
 /// Implementation of SHA-3 digest.
 class SHA3Digest extends BaseDigest implements Digest {
@@ -112,7 +112,7 @@ class SHA3Digest extends BaseDigest implements Digest {
 
   int doFinal(Uint8List out, int outOff) {
     if (!_keccak) {
-      // FIPS 202 SHA3 https://github.com/PointyCastle/pointycastle/issues/128
+      // FIPS 202 SHA3 https://github.com/pointycastleold/pointycastleold/issues/128
       absorbBits(0x02, 2);
     }
 

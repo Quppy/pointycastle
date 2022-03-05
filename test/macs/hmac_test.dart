@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.hmacs.hmac_test;
+library pointycastleold.test.hmacs.hmac_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "../test/mac_tests.dart";
 import "../test/src/helpers.dart";

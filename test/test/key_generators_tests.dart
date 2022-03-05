@@ -2,10 +2,10 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.test.key_generators_tests;
+library pointycastleold.test.test.key_generators_tests;
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 void runKeyGeneratorTests(
     KeyGenerator keyGenerator, List<AsymmetricKeyPair> expectedKeyPairs) {

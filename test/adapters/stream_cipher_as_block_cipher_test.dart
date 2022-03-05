@@ -2,10 +2,10 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.adapters.stream_cipher_as_block_cipher_test;
+library pointycastleold.test.adapters.stream_cipher_as_block_cipher_test;
 
 import 'package:test/test.dart';
-import "package:pointycastle/adapters/stream_cipher_as_block_cipher.dart";
+import "package:pointycastleold/adapters/stream_cipher_as_block_cipher.dart";
 
 import '../test/block_cipher_tests.dart';
 import '../test/src/null_stream_cipher.dart';

@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.random.secure_random_base;
+library pointycastleold.src.impl.random.secure_random_base;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/ufixnum.dart";
+import "package:pointycastleold/src/utils.dart" as utils;
 
 /**
  * An utility base implementation of [SecureRandom] so that only [nextUint8] method needs to be

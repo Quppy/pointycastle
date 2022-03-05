@@ -2,18 +2,18 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.asymmetric.oaep_test;
+library pointycastleold.test.asymmetric.oaep_test;
 
 import 'dart:typed_data';
 
 import "package:test/test.dart";
 
-import "package:pointycastle/pointycastle.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import 'package:pointycastle/asymmetric/api.dart';
-import 'package:pointycastle/asymmetric/oaep.dart';
-import 'package:pointycastle/asymmetric/rsa.dart';
-import 'package:pointycastle/src/utils.dart';
+import "package:pointycastleold/pointycastle.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import 'package:pointycastleold/asymmetric/api.dart';
+import 'package:pointycastleold/asymmetric/oaep.dart';
+import 'package:pointycastleold/asymmetric/rsa.dart';
+import 'package:pointycastleold/src/utils.dart';
 
 import "../test/src/fixed_secure_random.dart";
 import '../test/src/helpers.dart';

@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.modes.sic_test;
+library pointycastleold.test.modes.sic_test;
 
 import "dart:typed_data";
 
-import "package:pointycastle/pointycastle.dart";
-import 'package:pointycastle/src/registry/registry.dart';
+import "package:pointycastleold/pointycastle.dart";
+import 'package:pointycastleold/src/registry/registry.dart';
 import "package:test/test.dart";
 
 import "../test/block_cipher_tests.dart";

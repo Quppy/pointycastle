@@ -20,7 +20,7 @@ doc: depends
 	@echo "MAKING DOCUMENTATION"
 	@echo "********************************************************************************"
 
-	docgen  --start-page=pointycastle \
+	docgen  --start-page=pointycastleold \
                 --package-root=../packages \
                 --compile \
                 ../lib/pointycastle.dart
@@ -37,20 +37,20 @@ bundle-package: test
 	@echo "MAKING PACKAGE BUNDLE"
 	@echo "********************************************************************************"
 
-	-rm ../out/bundle/pointycastle.tar.gz
+	-rm ../out/bundle/pointycastleold.tar.gz
 	mkdir -p ../out/bundle
 
-	tar -c -z -C .. --exclude packages -f ../out/bundle/pointycastle.tar.gz LICENSE README.md changelog.md pubspec.yaml benchmark/ lib/ licenses/ test/ tool/
+	tar -c -z -C .. --exclude packages -f ../out/bundle/pointycastleold.tar.gz LICENSE README.md changelog.md pubspec.yaml benchmark/ lib/ licenses/ test/ tool/
 
 bundle-doc: doc
 	@echo "********************************************************************************"
 	@echo "MAKING DOC BUNDLE"
 	@echo "********************************************************************************"
 
-	-rm ../out/bundle/pointycastle-doc.tar.gz
+	-rm ../out/bundle/pointycastleold-doc.tar.gz
 	mkdir -p ../out/bundle
 
-	tar -c -z -C../out/doc -f ../out/bundle/pointycastle-doc.tar.gz .
+	tar -c -z -C../out/doc -f ../out/bundle/pointycastleold-doc.tar.gz .
 
 deploy: deploy-doc deploy-pub
 

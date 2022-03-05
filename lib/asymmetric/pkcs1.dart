@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.asymmetric_block_cipher.pkcs1;
+library pointycastleold.impl.asymmetric_block_cipher.pkcs1;
 
 import "dart:typed_data";
 import "dart:math";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_asymmetric_block_cipher.dart";
-import "package:pointycastle/random/fortuna_random.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/impl/base_asymmetric_block_cipher.dart";
+import "package:pointycastleold/random/fortuna_random.dart";
 
 class PKCS1Encoding extends BaseAsymmetricBlockCipher {
   /// Intended for internal use.

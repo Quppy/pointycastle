@@ -2,9 +2,9 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.key_generators.rsa_key_generator_test;
+library pointycastleold.test.key_generators.rsa_key_generator_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastleold/pointycastle.dart';
 
 import '../test/src/fixed_secure_random.dart';
 import '../test/key_generators_tests.dart';

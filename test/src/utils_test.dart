@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.utils_test;
+library pointycastleold.src.utils_test;
 
 import "dart:math";
 import "dart:typed_data";
 
 import "package:test/test.dart";
-import "package:pointycastle/src/utils.dart";
+import "package:pointycastleold/src/utils.dart";
 
 Random random = new Random();
 

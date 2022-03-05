@@ -2,15 +2,15 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.asymmetric_block_cipher.rsa;
+library pointycastleold.impl.asymmetric_block_cipher.rsa;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/asymmetric/api.dart";
-import "package:pointycastle/src/impl/base_asymmetric_block_cipher.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/asymmetric/api.dart";
+import "package:pointycastleold/src/impl/base_asymmetric_block_cipher.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/utils.dart" as utils;
 
 class RSAEngine extends BaseAsymmetricBlockCipher {
   static final FactoryConfig FACTORY_CONFIG =

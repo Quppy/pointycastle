@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.stream_cipher.salsa20;
+library pointycastleold.impl.stream_cipher.salsa20;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_stream_cipher.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_stream_cipher.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 
 /// Implementation of Daniel J. Bernstein's Salsa20 stream cipher, Snuffle 2005.
 class Salsa20Engine extends BaseStreamCipher {

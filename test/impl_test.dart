@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.impl_test;
+library pointycastleold.test.impl_test;
 
 import "package:test/test.dart";
 

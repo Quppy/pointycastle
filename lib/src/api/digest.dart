@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-part of pointycastle.api;
+part of pointycastleold.api;
 
 /// The interface that a message digest conforms to.
 abstract class Digest extends Algorithm {

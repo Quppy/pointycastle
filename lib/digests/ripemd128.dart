@@ -2,14 +2,14 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.digest.ripemd128;
+library pointycastleold.impl.digest.ripemd128;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/md4_family_digest.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/ufixnum.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/md4_family_digest.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/ufixnum.dart";
 
 /// Implementation of RIPEMD-128 digest
 class RIPEMD128Digest extends MD4FamilyDigest implements Digest {

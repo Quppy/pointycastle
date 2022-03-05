@@ -2,10 +2,10 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.registry;
+library pointycastleold.src.registry;
 
-import "package:pointycastle/api.dart";
-import 'package:pointycastle/src/registry/registration.dart';
+import "package:pointycastleold/api.dart";
+import 'package:pointycastleold/src/registry/registration.dart';
 
 final FactoryRegistry registry = _RegistryImpl();
 

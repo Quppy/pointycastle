@@ -33,7 +33,7 @@ Changelog
 * Reorganised file structure.
 
 * Completely new Registry implementation that dynamically loads imported implementations using reflection.
-  It is explained in [this commit](https://github.com/PointyCastle/pointycastle/commit/2da75e5a8d7bdbf95d08329add9f13b9070b75d4).
+  It is explained in [this commit](https://github.com/pointycastleold/pointycastleold/commit/2da75e5a8d7bdbf95d08329add9f13b9070b75d4).
 
 * Migrated from unittest to test package.
 

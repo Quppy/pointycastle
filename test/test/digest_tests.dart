@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.test.digest_tests;
+library pointycastleold.test.test.digest_tests;
 
 import 'dart:typed_data';
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "./src/helpers.dart";
 
@@ -35,10 +35,11 @@ void _runDigestTest(
 
   expect(hexOut, equals(expectedHexDigestText));
 
-  for(var i = 0; i < plainText.length; ++i) {
+  for (var i = 0; i < plainText.length; ++i) {
     digest.updateByte(plainText[i]);
   }
-  out = new Uint8List(digest.digestSize);;
+  out = new Uint8List(digest.digestSize);
+  ;
   digest.doFinal(out, 0);
   hexOut = formatBytesAsHexString(out);
 

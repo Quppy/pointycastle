@@ -2,7 +2,7 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-part of pointycastle.api;
+part of pointycastleold.api;
 
 /// This kind of exception is thrown when a user tries to create an algorithm
 /// or domain parameters that were not correctly registered. This can be

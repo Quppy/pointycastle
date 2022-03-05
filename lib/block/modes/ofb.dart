@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.block_cipher.modes.ofb;
+library pointycastleold.impl.block_cipher.modes.ofb;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/registry/registry.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/registry/registry.dart";
+import "package:pointycastleold/src/impl/base_block_cipher.dart";
 
 /// Implementation of Output FeedBack mode (OFB) on top of a [BlockCipher].
 class OFBBlockCipher extends BaseBlockCipher {

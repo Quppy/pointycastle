@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.padding.iso7816d4;
+library pointycastleold.impl.padding.iso7816d4;
 
 import "dart:typed_data" show Uint8List;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_padding.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_padding.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// A padder that adds the padding according to the scheme referenced in
 /// ISO 7814-4 - scheme 2 from ISO 9797-1. The first byte is 0x80, rest is 0x00

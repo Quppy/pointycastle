@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.registry.ec_standard_curve_constructor;
+library pointycastleold.src.registry.ec_standard_curve_constructor;
 
-import "package:pointycastle/ecc/ecc_base.dart";
-import "package:pointycastle/ecc/ecc_fp.dart" as fp;
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastleold/ecc/ecc_base.dart";
+import "package:pointycastleold/ecc/ecc_fp.dart" as fp;
+import "package:pointycastleold/src/utils.dart" as utils;
 
 ECDomainParametersImpl constructFpStandardCurve(
     String name, Function constructor,

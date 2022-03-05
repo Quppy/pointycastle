@@ -2,11 +2,11 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.secure_random.test.src.fixed_secure_random;
+library pointycastleold.impl.secure_random.test.src.fixed_secure_random;
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/secure_random_base.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/secure_random_base.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /// An implementation of [SecureRandom] that return fixed values.
 ///

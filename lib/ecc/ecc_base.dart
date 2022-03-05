@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.ecc.ecc_base;
+library pointycastleold.impl.ecc.ecc_base;
 //TODO I think this stuff might be moved to src/impl
 
 import "dart:typed_data";
 
-import "package:pointycastle/ecc/api.dart";
-import "package:pointycastle/src/utils.dart" as utils;
+import "package:pointycastleold/ecc/api.dart";
+import "package:pointycastleold/src/utils.dart" as utils;
 
 /// Implementation of [ECDomainParameters]
 class ECDomainParametersImpl implements ECDomainParameters {

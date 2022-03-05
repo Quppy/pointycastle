@@ -2,13 +2,13 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.impl.block_cipher.test.src.null_block_cipher;
+library pointycastleold.impl.block_cipher.test.src.null_block_cipher;
 
 import "dart:typed_data";
 
-import "package:pointycastle/api.dart";
-import "package:pointycastle/src/impl/base_block_cipher.dart";
-import "package:pointycastle/src/registry/registry.dart";
+import "package:pointycastleold/api.dart";
+import "package:pointycastleold/src/impl/base_block_cipher.dart";
+import "package:pointycastleold/src/registry/registry.dart";
 
 /**
  * An implementation of a null [BlockCipher], that is, a cipher that does not encrypt, neither decrypt. It can be used for

@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.test.stream_cipher_tests;
+library pointycastleold.test.test.stream_cipher_tests;
 
 import "dart:typed_data";
 
 import "package:test/test.dart";
-import "package:pointycastle/pointycastle.dart";
+import "package:pointycastleold/pointycastle.dart";
 
 import "./src/helpers.dart";
 

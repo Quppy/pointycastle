@@ -2,9 +2,9 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.test.key_derivators.scrypt_test;
+library pointycastleold.test.key_derivators.scrypt_test;
 
-import 'package:pointycastle/pointycastle.dart';
+import 'package:pointycastleold/pointycastle.dart';
 
 import '../test/key_derivators_tests.dart';
 import '../test/src/helpers.dart';

@@ -2,12 +2,12 @@
 // This library is dually licensed under LGPL 3 and MPL 2.0.
 // See file LICENSE for more information.
 
-library pointycastle.src.impl.digests.long_sha2_family_digest;
+library pointycastleold.src.impl.digests.long_sha2_family_digest;
 
 import "dart:typed_data";
 
-import "package:pointycastle/src/ufixnum.dart";
-import "package:pointycastle/src/impl/base_digest.dart";
+import "package:pointycastleold/src/ufixnum.dart";
+import "package:pointycastleold/src/impl/base_digest.dart";
 
 /// Base implementation of SHA-2 family algorithms SHA-384 and SHA-512.
 abstract class LongSHA2FamilyDigest extends BaseDigest {
@@ -158,44 +158,92 @@ abstract class LongSHA2FamilyDigest extends BaseDigest {
     var t = 0;
     for (var i = 0; i < 10; i++) {
       // t = 8 * i
-      h..sum(_Sum1(e))..sum(_Ch(e, f, g))..sum(_K[t])..sum(_W[t++]);
+      h
+        ..sum(_Sum1(e))
+        ..sum(_Ch(e, f, g))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       d.sum(h);
-      h..sum(_Sum0(a))..sum(_Maj(a, b, c));
+      h
+        ..sum(_Sum0(a))
+        ..sum(_Maj(a, b, c));
 
       // t = 8 * i + 1
-      g..sum(_Sum1(d))..sum(_Ch(d, e, f))..sum(_K[t])..sum(_W[t++]);
+      g
+        ..sum(_Sum1(d))
+        ..sum(_Ch(d, e, f))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       c.sum(g);
-      g..sum(_Sum0(h))..sum(_Maj(h, a, b));
+      g
+        ..sum(_Sum0(h))
+        ..sum(_Maj(h, a, b));
 
       // t = 8 * i + 2
-      f..sum(_Sum1(c))..sum(_Ch(c, d, e))..sum(_K[t])..sum(_W[t++]);
+      f
+        ..sum(_Sum1(c))
+        ..sum(_Ch(c, d, e))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       b.sum(f);
-      f..sum(_Sum0(g))..sum(_Maj(g, h, a));
+      f
+        ..sum(_Sum0(g))
+        ..sum(_Maj(g, h, a));
 
       // t = 8 * i + 3
-      e..sum(_Sum1(b))..sum(_Ch(b, c, d))..sum(_K[t])..sum(_W[t++]);
+      e
+        ..sum(_Sum1(b))
+        ..sum(_Ch(b, c, d))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       a.sum(e);
-      e..sum(_Sum0(f))..sum(_Maj(f, g, h));
+      e
+        ..sum(_Sum0(f))
+        ..sum(_Maj(f, g, h));
 
       // t = 8 * i + 4
-      d..sum(_Sum1(a))..sum(_Ch(a, b, c))..sum(_K[t])..sum(_W[t++]);
+      d
+        ..sum(_Sum1(a))
+        ..sum(_Ch(a, b, c))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       h.sum(d);
-      d..sum(_Sum0(e))..sum(_Maj(e, f, g));
+      d
+        ..sum(_Sum0(e))
+        ..sum(_Maj(e, f, g));
 
       // t = 8 * i + 5
-      c..sum(_Sum1(h))..sum(_Ch(h, a, b))..sum(_K[t])..sum(_W[t++]);
+      c
+        ..sum(_Sum1(h))
+        ..sum(_Ch(h, a, b))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       g.sum(c);
-      c..sum(_Sum0(d))..sum(_Maj(d, e, f));
+      c
+        ..sum(_Sum0(d))
+        ..sum(_Maj(d, e, f));
 
       // t = 8 * i + 6
-      b..sum(_Sum1(g))..sum(_Ch(g, h, a))..sum(_K[t])..sum(_W[t++]);
+      b
+        ..sum(_Sum1(g))
+        ..sum(_Ch(g, h, a))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       f.sum(b);
-      b..sum(_Sum0(c))..sum(_Maj(c, d, e));
+      b
+        ..sum(_Sum0(c))
+        ..sum(_Maj(c, d, e));
 
       // t = 8 * i + 7
-      a..sum(_Sum1(f))..sum(_Ch(f, g, h))..sum(_K[t])..sum(_W[t++]);
+      a
+        ..sum(_Sum1(f))
+        ..sum(_Ch(f, g, h))
+        ..sum(_K[t])
+        ..sum(_W[t++]);
       e.sum(a);
-      a..sum(_Sum0(b))..sum(_Maj(b, c, d));
+      a
+        ..sum(_Sum0(b))
+        ..sum(_Maj(b, c, d));
     }
 
     H1.sum(a);
